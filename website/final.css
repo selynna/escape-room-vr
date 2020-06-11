@@ -1,0 +1,77 @@
+@font-face {
+   font-family: 'Proxima Nova Regular';
+   src: url('proximanova-regular.ttf');
+}
+
+@font-face {
+   font-family: 'Proxima Nova Bold';
+   src: url('proximanova-bold.ttf');
+}
+
+body {
+   font-family: 'Proxima Nova Regular';
+   margin: 0;
+   padding: 0;
+}
+
+h1, h2, h3 {
+   font-family: 'Proxima Nova Bold';
+   margin: 0;
+   margin-bottom: 5px;
+}
+
+.bold {
+   font-family: 'Proxima Nova Bold';
+}
+
+.container {
+   padding: 30px;
+}
+
+.heading span {
+   padding: 0 2px;
+   background: linear-gradient(to top, #c8e6ff 50%, transparent 50%);
+}
+
+.header {
+   background-color: #003866;
+   color: #ffffff;
+   padding: 30px 50px;
+}
+
+
+.spoiler {
+   color: #c7c7c7;
+   background-color: #c7c7c7;
+   border-radius: 5px;
+}
+
+.spoiler:hover {
+   color: #000000;
+   background-color: #ffffff;
+}
+
+.section-wrapper {
+   margin: 20px 30px;
+}
+
+.switch {
+   margin: 10px 0;
+}
+
+.puzzles {
+   margin-top: 20px;
+}
+
+.hint {
+   margin: 10px 0;
+}
+
+.src-link {
+   color: #003866; 
+   text-decoration: none;
+}
+
+.src-link:hover, .src-link:active {
+   color: #c8e6ff
+}
