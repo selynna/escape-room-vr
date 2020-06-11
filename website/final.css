@@ -59,7 +59,7 @@ h1, h2, h3 {
    margin: 10px 0;
 }
 
-.puzzles {
+.puzzles, .screenshots {
    margin-top: 20px;
 }
 
@@ -76,9 +76,15 @@ h1, h2, h3 {
    color: #c8e6ff
 }
 
-.screenshot-content {
-   margin-left: 4px;
+.screenshots a {
    margin-top: 10px;
+}
+
+.screenshot-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 .images {
@@ -89,5 +95,9 @@ h1, h2, h3 {
 
 .images img {
    margin: 10px 10px;
-   width: 500px;
+   width: 480px;
+}
+
+.screenshot-content video {
+   margin: 0;
 }

@@ -6,17 +6,17 @@
 <body>
    <div class="header">
       <h1>Escape Room</h1> 
-      <h3>CSC 377, Selynna Sun</h3>
+      <h3>CSC 377 Spring 2020, Selynna Sun</h3>
    </div>
    <div class="container">
       <div class="intro">
          <h2 class="heading">
             <span>Intro</span>
          </h2>
-         I'm a huge fan of escape rooms - they're incredibly immersive in real life
-         and contain so many interesting puzzles and riddles. Due to ongoing
-         circumstances, we can't go to escape rooms irl, and what better way to 
-         simulate one than by making one in VR? 
+         I'm a huge fan of escape rooms - they're incredibly immersive in real
+         life and contain so many interesting puzzles and riddles. Due to 
+         ongoing circumstances, we unfortunately can't go to escape rooms irl. 
+         what better way to simulate one than by making one in VR? 
       </div>
       <div class="puzzles">
          <h2 class="heading">
@@ -31,9 +31,11 @@
             <h3>
                <span>1. Hidden Switches</span>
             </h3>
-            The objective of hidden switches is to 
-            <span class="bold">find two switches</span> to unlock the 
-            door to the next room. 
+            The objective of this room is to 
+            <span class="spoiler">
+               find two switches
+            </span>
+            to unlock the door to the next room. 
             
             <div class="switch switch-2">
                Switch 1: 
@@ -61,13 +63,18 @@
          </div>
          <div class="section-wrapper rube">
             <h3>2. Rube Goldberg</h3>
-            The objective of this is to complete the rube goldberg machine to 
-            trigger the switch with the ball in the room. No hints here :-) 
+            The objective of this room is to 
+            <span class="spoiler">
+               use the rube goldberg machine to trigger the switch with the ball
+               in the room.
+            </span>
          </div>
          <div class="section-wrapper travel">
             <h3>3. Travel Trivia</h3>
-            The objective of this room is to get a 4 digit code. This is by far the 
-            hardest room. 
+            The objective of this room is to 
+            <span class="spoiler">
+               get a 4 digit code
+            </span>. This is by far the hardest room. 
 
             <div class="hint">
                Hint 1: 
@@ -114,18 +121,33 @@
             </div>
          </div>
       </div>
+      <div class="notes">
+         <h2 class="heading">
+            <span>Notes</span>
+         </h2>
+         <div class="controls">
+
+         </div>
+         <div class="notes-content">
+            - Only works on Oculus Quest (compiles based on Android platform,
+            Oculus packages are Quest-specific)
+         </div>
+      </div>
       <div class="screenshots">
          <h2 class="heading">
             <span>Screenshots, Video, Source Code</span>
          </h2>
+         <a class="src-link" href="https://github.com/selynna/escape-room-vr">
+            Source (GitHub @selynna)
+         </a>
          <div class="screenshot-content">
-            <a class="src-link" href="https://github.com/selynna/escape-room-vr">
-               Source (GitHub @selynna)
-            </a>
             <div class="images">
                <img src="room1.png"/>
                <img src="room3.png"/>
             </div>
+            <video width="900" height="600" controls>
+               <source src="final.mp4" type="video/mp4">
+            </video>
          </div>
       </div>
    </div>
